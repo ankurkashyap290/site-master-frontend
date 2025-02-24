@@ -1,0 +1,21 @@
+.standalone-form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-self: center;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 30px;
+  label {
+    color: rgba(0, 0, 0, 0.3);
+  }
+  button {
+    width: 150px;
+    margin-top: 12px;
+  }
+}
+.standalone-info {
+  margin: $paper-margin;
+  padding: 24px;
+  overflow: scroll;
+}

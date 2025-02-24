@@ -1,0 +1,9 @@
+export const SET_MODEL_LIST = 'transport-logs/SET_MODEL_LIST';
+export const ADD_NEW_MODEL = 'transport-logs/ADD_NEW_MODEL';
+export const UPDATE_MODEL = 'transport-logs/UPDATE_MODEL';
+export const REMOVE_MODEL_FROM_LIST = 'transport-logs/REMOVE_MODEL_FROM_LIST';
+export const SET_EDITABLE_MODEL = 'transport-logs/SET_EDITABLE_MODEL';
+export const SET_DELETABLE_MODEL = 'transport-logs/SET_DELETABLE_MODEL';
+export const SET_PAGER = 'transport-logs/SET_PAGER';
+export const SET_FILTER = 'transport-logs/SET_FILTER';
+export const SET_DETAILS = 'transport-logs/SET_DETAILS';

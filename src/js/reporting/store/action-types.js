@@ -1,0 +1,9 @@
+export const SET_LOADING = 'reporting/SET_LOADING';
+export const SET_FACILITY_MODEL_LIST = 'reporting/SET_FACILITY_MODEL_LIST';
+export const SET_SELECTED_FACILITIES = 'reporting/SET_SELECTED_FACILITIES';
+export const SET_FACILITY_DRILLDOWN = 'reporting/SET_FACILITY_DRILLDOWN';
+export const SET_FACILITY_DAILY_EVENTS = 'reporting/SET_FACILITY_DAILY_EVENTS';
+export const SET_ETC_MODEL_LIST = 'reporting/SET_ETC_MODEL_LIST';
+export const SET_SELECTED_ETCS = 'reporting/SET_SELECTED_ETCS';
+export const SET_ETC_DRILLDOWN = 'reporting/SET_ETC_DRILLDOWN';
+export const SET_ETC_DAILY_EVENTS = 'reporting/SET_ETC_DAILY_EVENTS';

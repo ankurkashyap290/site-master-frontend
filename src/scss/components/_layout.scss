@@ -1,0 +1,181 @@
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  .fade-enter {
+    opacity: 0;
+    z-index: 1;
+  }
+  .fade-exit {
+    display: none;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-grow: 1;
+    max-height: calc(100vh - 65px);
+    .content {
+      display: flex;
+      flex: 1;
+      background: $background;
+      overflow: auto;
+    }
+  }
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 250ms ease-in;
+  }
+  .header {
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    position: relative;
+    & > div {
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        height: 50px;
+      }
+      .avatar {
+        margin-right: 10px;
+      }
+      .user-menu {
+        display: flex;
+        align-items: center;
+        & > button {
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  .menu > div {
+    height: 100%;
+    position: relative;
+    background-color: #607d8b;
+    color: #fff;
+    ul {
+      width: 100%;
+    }
+    p, .menu-item h3, .menu-item span, .menu-icon {
+      color: #fff;
+    }
+    a.active > div {
+      background-color: rgba(255, 255, 255, 0.08);
+    }
+    p {
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    div.facility-menu-container {
+      > li:first-child {
+        margin-top: 24px;
+        border-left: 2px solid rgba(0, 0, 0, 0.08);
+      }
+      > li:last-child {
+        padding: 0;
+        border-left: 2px solid rgba(0, 0, 0, 0.08);
+        > ul {
+          padding: 0;
+        }
+      }
+      &.selected {
+        > li {
+          border-color: $secondary;
+        }
+      }
+    }
+  }
+  .loader {
+    padding: 10px;
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    & > img {
+      height: 50px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.sidebar-form {
+  & > div {
+    padding: 20px;
+    min-width: 420px;
+    max-width: 100%;
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+  .back-button-container {
+    display: flex;
+    align-items: center;
+    h2 {
+      margin-bottom: 0;
+    }
+    margin-bottom: 12px;
+  }
+    .list {
+    margin-bottom: 24px;
+    tr {
+      td:first-child, th:first-child {
+        padding-right: 0;
+      }
+    }
+  }
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+
+    .state {
+      top: 7px;
+    }
+  }
+  label.switch {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin: 0;
+  }
+  .row-warning {
+    background-color: rgba(255, 165, 0, 0.5);
+  }
+}
+
+.page-wrapper, .sidebar-form, .sidebar-form > label, .standalone-form {
+  .form-control, .select, .setter, .picker, .switch, .fieldset {
+    min-height: min-content;
+    margin-bottom: 20px;
+  }
+  .setter {
+    margin-bottom: 0;
+  }
+  .picker {
+    display: flex;
+  }
+  .picker input {
+    text-transform: uppercase;
+  }
+}
+
+.mileage-table {
+  font-family: $font-family-default;
+  font-size: $font-size-default;
+  margin: -10px 26px 6px;
+  th {
+    text-align: left;
+    font-weight: bold;
+  }
+  td:last-child {
+    padding: 0 0 4px 10px;
+    text-align: right;
+  }
+}
+
+@media print {
+  .hide-print {
+    display: none;
+  }
+}

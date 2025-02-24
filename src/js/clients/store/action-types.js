@@ -1,0 +1,9 @@
+export const SET_MODEL_LIST = 'clients/SET_MODEL_LIST';
+export const ADD_NEW_MODEL = 'clients/ADD_NEW_MODEL';
+export const UPDATE_MODEL = 'clients/UPDATE_MODEL';
+export const REMOVE_MODEL_FROM_LIST = 'clients/REMOVE_MODEL_FROM_LIST';
+export const SET_EDITABLE_MODEL = 'clients/SET_EDITABLE_MODEL';
+export const SET_DELETABLE_MODEL = 'clients/SET_DELETABLE_MODEL';
+export const SET_SEARCH_KEY = 'clients/SET_SEARCH_KEY';
+export const SET_DETAILS = 'clients/SET_DETAILS';
+export const SET_WARNING_MESSAGE = 'clients/SET_WARNING_MESSAGE';

@@ -1,0 +1,104 @@
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .calendar-paper {
+    min-height: 400px;
+    height: 100%;
+    margin: $paper-margin;
+    color: $text;
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: $font-family-default;
+    line-height: 1.46429em;
+    .rbc-off-range-bg {
+      background-color: #f0efed;
+    }
+    .rbc-today {
+      background-color: #ffebe6;
+    }
+    .rbc-event {
+      background-color: $primary;
+      .rbc-event-content {
+        font-size: 13px;
+      }
+    }
+    .rbc-month-view .rbc-event-content {
+      white-space: pre;
+    }
+    .rbc-day-slot .rbc-event {
+      margin-left: 5px;
+    }
+    .rbc-day-slot .rbc-event-content {
+      line-height: inherit;
+    }
+    .rbc-agenda-view {
+      flex-basis: auto;
+    }
+  }
+  .year-month-title {
+    display: inline-block;
+    padding-right: 5px;
+  }
+  .cp-placeholder {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.event-details {
+  .actions, .title {
+    background-color: $primary;
+  }
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .title {
+    padding: 0 24px 20px 74px;
+    margin-bottom: 32px;
+  }
+  .fab {
+    position: absolute;
+    left: 24px;
+  }
+  .subheading {
+    white-space: pre-line;
+  }
+  .label {
+    display: block;
+    font-weight: bold;
+    opacity: 0.7;
+  }
+  .passenger-panel {
+    margin-top: 8px;
+  }
+  .passenger-details {
+    padding-bottom: 8px;
+  }
+  .detail-row {
+    padding: 10px 5px;
+    width: 400px;
+  }
+}
+
+.dow-selector {
+  color: #CCCCCC;
+  background-color: #F8F8F8;
+  border-radius: 12px;
+  font-family: $font-family-default;
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  width: 24px;
+  &.active {
+    background-color: $secondary;
+    color: white;
+  }
+}

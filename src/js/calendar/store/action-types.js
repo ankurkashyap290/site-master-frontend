@@ -1,0 +1,10 @@
+export const SET_CALENDAR_CONFIG = 'calendar/CHANGE_CALENDAR_CONFIG';
+export const SET_MODEL_LIST = 'calendar/SET_MODEL_LIST';
+export const SET_SEARCH_KEY = 'clients/SET_SEARCH_KEY';
+export const ADD_NEW_MODEL = 'calendar/ADD_NEW_MODEL';
+export const UPDATE_MODEL = 'calendar/UPDATE_MODEL';
+export const REMOVE_MODEL_FROM_LIST = 'calendar/REMOVE_MODEL_FROM_LIST';
+export const SET_EDITABLE_MODEL = 'calendar/SET_EDITABLE_MODEL';
+export const SET_EDITABLE_MODEL_ATTRIBUTE = 'calendar/SET_EDITABLE_MODEL_ATTRIBUTE';
+export const SET_DELETABLE_MODEL = 'calendar/SET_DELETABLE_MODEL';
+export const GET_MODEL_FROM_LIST = 'calendar/GET_MODEL_FROM_LIST';

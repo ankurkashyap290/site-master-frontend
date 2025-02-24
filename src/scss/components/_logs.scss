@@ -1,0 +1,20 @@
+.log-details {
+  .detail-row {
+    width: 400px;
+    padding: 10px 5px;
+  }
+  .label {
+    display: block;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+}
+.list.transport-billing-logs,
+.list.transport-logs {
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}

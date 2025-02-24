@@ -1,0 +1,10 @@
+export const SET_MODEL_LIST = 'etcs/SET_MODEL_LIST';
+export const ADD_NEW_MODEL = 'etcs/ADD_NEW_MODEL';
+export const UPDATE_MODEL = 'etcs/UPDATE_MODEL';
+export const REMOVE_MODEL_FROM_LIST = 'etcs/REMOVE_MODEL_FROM_LIST';
+export const SET_EDITABLE_MODEL = 'etcs/SET_EDITABLE_MODEL';
+export const SET_DELETABLE_MODEL = 'etcs/SET_DELETABLE_MODEL';
+export const SET_FACILITY = 'etcs/SET_FACILITY';
+export const SET_DETAILS = 'etcs/SET_DETAILS';
+export const SET_ETC_DRIVER = 'etcs/SET_ETC_DRIVER';
+export const SET_WARNING_MESSAGE = 'etcs/SET_WARNING_MESSAGE';

@@ -1,0 +1,61 @@
+.etc-details {
+  .detail-row {
+    padding: 10px 5px;
+    width: 400px;
+  }
+  .label {
+    font-weight: bold;
+    margin-right: 10px;
+    display: block;
+    margin-bottom: 8px;
+  }
+  .content-below {
+    padding-bottom: 0px;
+  }
+  .detail-content {
+    padding: 0 5px 10px 5px;
+    font-size: 0.875rem;
+  }
+  .emails {
+    & > div {
+      margin-right: 5px;
+    }
+  }
+}
+.list.etcs {
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
+
+.standalone-form {
+  .etc-name {
+    background-color: $primary;
+    color: white;
+    margin: -30px -30px 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    .icon {
+      margin-right: 10px;
+    }
+  }
+  .bid-form {
+    & > div {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    button {
+      width: auto;
+    }
+  }
+  .detail-row {
+    padding: 15px 0;
+    font-weight: bold;
+  }
+  .numeric-input input {
+    text-align: left;
+  }
+}

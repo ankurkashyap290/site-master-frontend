@@ -1,0 +1,22 @@
+.location-select {
+  margin-bottom: 24px;
+  padding: 15px;
+  .select-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .select {
+      flex-grow: 1;
+      margin-bottom: 0;
+      margin-right: 8px;
+      p {
+        min-height: 0;
+      }
+    }
+  }
+  .location-details {
+    font-size: 12px;
+    line-height: 24px;
+    white-space: normal;
+  }
+}

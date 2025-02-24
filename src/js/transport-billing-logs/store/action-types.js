@@ -1,0 +1,9 @@
+export const SET_MODEL_LIST = 'transport-billing-logs/SET_MODEL_LIST';
+export const ADD_NEW_MODEL = 'transport-billing-logs/ADD_NEW_MODEL';
+export const UPDATE_MODEL = 'transport-billing-logs/UPDATE_MODEL';
+export const REMOVE_MODEL_FROM_LIST = 'transport-billing-logs/REMOVE_MODEL_FROM_LIST';
+export const SET_EDITABLE_MODEL = 'transport-billing-logs/SET_EDITABLE_MODEL';
+export const SET_DELETABLE_MODEL = 'transport-billing-logs/SET_DELETABLE_MODEL';
+export const SET_PAGER = 'transport-billing-logs/SET_PAGER';
+export const SET_FILTER = 'transport-billing-logs/SET_FILTER';
+export const SET_DETAILS = 'transport-billing-logs/SET_DETAILS';

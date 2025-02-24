@@ -1,0 +1,81 @@
+.reporting-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+}
+
+.reporting, .aggregated-reporting {
+  th, td {
+    padding-right: 24px;
+  }
+  th {
+    text-align: center;
+  }
+  td {
+    text-align: right;
+  }
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  .border-right {
+    border-right: 1px solid rgba(224, 224, 224, 1);
+  }
+  .dark-border-right {
+    border-right: 1px solid;
+  }
+}
+
+.list {
+  &.reporting {
+    .last-row {
+      background: $background;
+      td {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.aggregated-reporting {
+  max-width: 500px;
+  margin-bottom: 30px;
+  .ytd-border-bottom {
+    border-bottom: 1px solid;
+    td {
+      border-bottom: none;
+    }
+  }
+}
+
+.reporting {
+  .filter,
+  .today-date {
+    padding: 0 25px 15px 25px;
+    .multi-select {
+      width: 250px;
+    }
+  }
+  .status-negativ,
+  .status-positive {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .table-header,
+  .table-toolbar {
+    h2 {
+      flex: 1;
+    }
+  }
+  .status-negativ {
+    color: red;
+  }
+  .status-positive {
+    color: green;
+  }
+  .filter {
+    .form-control {
+      margin-left: 20px;
+    }
+  }
+}
